@@ -44,3 +44,44 @@ body{
 .half-width .head-drop{
     text-transform: capitalize;
 }
+
+/* section-experiences */
+.experience-banner {
+    background-image: url(./images/exp-bg.png);
+    background-position: center left;
+    height: 427px;
+    background-repeat: no-repeat;
+}
+.head-tag{
+    font-size: 40px;
+    font-weight: 400;
+}
+.main-box {
+    width: 80%;
+    padding: 20px 30px;
+    height: 300px;
+    box-shadow: 2px 2px 4px 2px #ddd;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#border-main{
+   
+        border-left: 7px solid;
+        border-image:linear-gradient(180deg, rgb(124, 255, 37),rgb(255, 126, 5));
+        border-image-slice: 1;
+        
+}
+#border-main2{
+   
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg, rgb(102, 37, 255),rgb(255, 5, 193));
+    border-image-slice: 1;
+    
+}
+footer {
+    margin-top: 159px;
+    text-align: center;
+    background: #000;
+    padding: 4px;
+    color: #fff;
+}
